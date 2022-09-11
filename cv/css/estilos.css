@@ -3,7 +3,6 @@
     padding: 0;
     background-color: #84a98c;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 h1{
@@ -12,33 +11,32 @@ h1{
 
 h1, h2{
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 2px 4px 0 2px;
 }
 
-
 .photo{
-    width: 300px;
+    display: flex;
+    padding: 1em;
     margin: 0 auto;
+    border: 3px solid black;
 }
 
 img{
-    width: 300px;
-    border-radius: 200px;
-    border-style: solid;
-    border-color: #52796f;
+    margin: 0 auto;
+    max-width: 300px;
+    border-radius: 180px;
 }
 
 .profile-container{
     width: 70%;
-    margin: 0 auto;
+    background-color:#cad2c5;
 }
 .profile-container .subtitle{
     width: auto;
 }
 
 .subtitle{
-    width: 300px;
+    width: auto;
     font-size: 1.2em;
     font-weight: 700;
     padding: 6px 5px;
@@ -50,20 +48,34 @@ img{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    border: 2px solid black;
 }
 
 .inner-container{
-    width: 40%;
-    border: 2px solid black;
+    width: 43%;
+    min-width: 160px;   
     background-color:#cad2c5;
+}
+
+.inner-container, .profile-container{
+    border: 3px solid #52796f;
+    margin: 8px auto;
+    padding: 0.3em;
+    border-radius: 18px;
 }
 
 ul > li, .card-text{
     background-color:#cad2c5;
+    font-size: 1.2em;
+    padding: 3px 5px 3px 5px;
+}
+
+.card-text{
+    font-weight: 400;
+    text-indent: 8px;
 }
 
 li{
-    list-style: inside;
-    padding: 3px 10px;
+    list-style: none;
+    font-weight: 600;
 }
+
