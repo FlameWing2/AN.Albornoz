@@ -18,7 +18,6 @@ h1, h2{
 
 
 .photo{
-    /* border: 2px solid black; */
     width: 300px;
     margin: 0 auto;
 }
@@ -30,10 +29,41 @@ img{
     border-color: #52796f;
 }
 
+.profile-container{
+    width: 70%;
+    margin: 0 auto;
+}
+.profile-container .subtitle{
+    width: auto;
+}
+
 .subtitle{
     width: 300px;
     font-size: 1.2em;
     font-weight: 700;
     padding: 6px 5px;
-    /* border: 2px solid black; */
+    text-decoration: 3px underline;
+    background-color: #cad2c5;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border: 2px solid black;
+}
+
+.inner-container{
+    width: 40%;
+    border: 2px solid black;
+    background-color:#cad2c5;
+}
+
+ul > li, .card-text{
+    background-color:#cad2c5;
+}
+
+li{
+    list-style: inside;
+    padding: 3px 10px;
 }
