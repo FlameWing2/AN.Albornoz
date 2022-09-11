@@ -18,7 +18,9 @@ h1, h2{
     display: flex;
     padding: 1em;
     margin: 0 auto;
-    border: 3px solid black;
+    border-bottom: 3px solid #cad2c5;
+    background-color: #52796f;
+    background-image: url(./fondo.png);
 }
 
 img{
